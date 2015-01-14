@@ -1,0 +1,9 @@
+/*.ui-helper-reset { font-size: 11px; }*/
+.ui-widget .ui-widget { font-size: 0.7em; color:#000; }
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited { color: #000; }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { color:#000; }
+
+.table tr th, tr td { font-size:11px; color:#000; }

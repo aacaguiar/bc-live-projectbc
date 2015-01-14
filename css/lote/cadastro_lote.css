@@ -1,0 +1,38 @@
+﻿@CHARSET "UTF-8";
+/*
+:required { box-shadow: none; }
+*/
+
+.box-cadastro-cli {	width:800px !important;	margin:0 auto; }
+
+.msg-erro-cadastro-cli,
+.info-endereco,.erro-data-pedido { color: #B94A48; font-size:12px; text-align:left; padding-left:10px; width:510px; margin-top:1px;
+								   margin-bottom:5px; margin-left:0px; }
+
+.erro-data-pedido {	margin-top:-22px; }
+
+.info-endereco { background:#F2DCDC; width:300px; }
+
+.select-cadastro-cli select { width:324px; }
+
+.panel-body { padding-left:80px !important; }
+
+.btn-cadastro-cli {	float:right; }
+
+.link-cli-novo { width:150px; height:20px; float:right;	font-size:12px; }
+
+.campo-data,.campo-qtde-ent { border: 1px solid #CCCCCC; height: 22px; margin-top:5px; padding:0px;	font-size:12px;	text-align:center; display:none; }
+
+.campo-qtde-ent { width:55px; }
+
+.label-entrega,.label-qtde-ent { font-size:11px; border:0px solid black; width:64px; margin:0 2px 0 8px; text-align:right; display:none; width:57px; }
+
+.label-entrega { font-weight:bold; }
+
+.label-qtde-ent { margin:0 2px 0 -4px !important; width:30px; }
+
+.titulo-entrega{ color:#999999; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 16px; margin-top:20px; }
+
+.box_datas { width:715px; /*height:0px;*/ border:0px solid black; margin-left:-10px; /*display:none;*/ }
+
+

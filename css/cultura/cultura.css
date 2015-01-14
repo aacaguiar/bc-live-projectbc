@@ -1,0 +1,36 @@
+﻿@CHARSET "UTF-8";
+
+.box-cadastro-cli {	width:800px !important;	margin:0 auto; }
+
+.box-pesquisa {	width:900px !important;	margin:0 auto; }
+
+.texto-celula { color:#000;	font-size:11px; }
+
+/*
+.titulo-cadastro,.titulo-pesq
+{
+	/*border:1px solid black;*
+	font-size:18px;
+	width:320px;
+	text-align:center;
+	margin:20px auto;
+	margin-bottom:10px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:#333;
+}
+*/
+
+.msg-erro-cadastro,.msg-erro-sigla { color: #B94A48; font-size:12px; text-align:left; padding-left:10px; width:320px; margin-top:1px; margin-bottom:5px;
+									 margin-left:0px; }
+
+.msg-erro-sigla { width:120px; }
+
+.panel-body { padding-left:80px !important; }
+
+.btn-cadastro-cli { float:right; }
+
+.btn-remover { top:3px !important; color:#ff0000; border:0px; background-color:transparent; display:none; }
+
+.check_cult { float:right; margin-right:30px; }
+
+.pag2 {	position:absolute; margin-top:-5px !important; margin-left:20px !important; }

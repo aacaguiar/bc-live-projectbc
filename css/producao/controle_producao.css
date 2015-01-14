@@ -1,0 +1,46 @@
+﻿
+.box-consultar-cont { width:100%; margin:0 auto; }
+.sel-var select { width:150px; }
+.panel-body { margin:auto; }
+
+/* FORMATAÇÃO DA TABLE FILTRAGEM */
+table.filt-prod { margin-top:10px; margin-bottom:30px; }
+table.filt-prod th label, table.filt-prod th select, table.filt-prod th input { font-size:11px; color:#000 }
+
+/* FORMATAÇÃO DA TABLE ETAPA PRODUÇÃO */
+.tab-et-prod { margin-top:10px; }
+.tab-et-prod tr th, .tab-et-prod tr td { border:1px solid #BFBFBF !important; }
+.tab-et-prod tr td { line-height:1 !important; }
+.tab-et-prod th { background-color:#DFF0D8; padding:2px; font-size:10px !important; text-align:center; vertical-align:middle !important; color:#000;}
+.tab-et-prod td input, .tab-et-prod td select { font-size:11px; color:#000; height: 20px; border:0px;}
+.form-control { padding:1px 4px !important; }
+th.tit-colspan1 { background-color:#DFF0D8; }
+th.tit-colspan2 { background-color:#D2DDCE; } 
+th.tit-colspan3 { background-color:#CED6CB; }
+.dt { width:70px;}
+.tam1 { width:50px;}
+
+
+/* FORMATAÇÃO DOS LINKS EDITAR E ATUALIZAR */
+.comandos, .titulo-acoes { width:60px; } 
+.btn-editar, .btn-atualiza { /*border:1px solid black;*/ cursor:pointer; position:relative; top:2px; left:10px; }
+
+/* FORMATAÇÃO DO LINK CADASTRAR */
+.btn-prod {height:20px; border-radius:0 !important; border:1px !important; margin-left:10px;}
+.btn-pesqusiar { margin-left:30px !important; margin-top:20px;  font-size: 12px !important;}
+.box-etapa-prod { width:100%; overflow-x:auto; overflow-y:hidden; padding-bottom:10px; /*border:1px solid black;*/ }
+.box-etapa { overflow-x:auto; overflow-y:hidden; padding-bottom:10px; /*border:1px solid black;*/ }
+
+/***********************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+

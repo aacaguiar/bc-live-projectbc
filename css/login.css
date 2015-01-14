@@ -1,0 +1,115 @@
+@CHARSET "UTF-8";
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header{
+  padding-left: 0px;
+  padding-right: 0px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+  color:#B2B2B2;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+  font-size: 16px;
+  padding: 4px 14px;
+  margin-left:-245px;
+  margin-top:10px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+    .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+    background-color: #F8F8F8;
+    border:1px solid #BABABA;
+  }
+}
+
+/* css para rodapé,label,btn etc. */
+html,body {
+	height: 100%;
+}
+
+#wrap {
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto -60px;
+	padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+	height: 80px;
+	background-color: #F8F8F8;
+    border:1px solid #BABABA;
+}
+
+.box-rodape {
+	/*border:1px solid black;*/
+	padding-top: 10px;
+	text-align: center;
+	color: #000;
+}
+
+.label-login
+{
+	line-height: 15px;
+	font-size:18px;
+	color:#799B88;
+	margin-left:-250px;
+}
+
+.cabecalho-login
+{
+	font-size:35px;
+	color:#799B88;
+	position:relative;
+	top:-40px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.box-login
+{
+	/*border:1px solid black;*/
+	margin-left:25px;
+	margin-top:-20px;
+}
+
+.img-logo
+{
+	width:90px;
+	height:90px;
+}
+.msg-erro-login
+{
+    color: #B94A48;
+    font-size:11px;
+    width:290px;
+    margin-top:1px;
+    margin-left:0px;
+}

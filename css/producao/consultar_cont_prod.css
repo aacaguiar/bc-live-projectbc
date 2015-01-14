@@ -1,0 +1,70 @@
+﻿/* view consultar controle da produção */
+
+.box-consultar-cont { width:100%; margin:0 auto; }
+.sel-var select { width:150px; }
+.panel-body { margin:auto; }
+
+/* FORMATAÇÃO DA TABLE FILTRAGEM 
+table.filt-prod { margin-top:10px; margin-bottom:30px; }
+table.filt-prod th label, table.filt-prod th select, table.filt-prod th input { font-size:11px; color:#000 }
+*/
+
+/* FORMATAÇÃO DA TABLE ETAPA PRODUÇÃO 
+.tab-et-prod { margin-top:10px; width:100%; }
+.tab-et-prod tr th, .tab-et-prod tr td { border:1px solid #BFBFBF !important; }
+.tab-et-prod tr td { line-height:1 !important; }
+.tab-et-prod th { background-color:#DFF0D8; padding:2px; font-size:10px !important; text-align:center; vertical-align:middle !important; color:#000;}
+.tab-et-prod td input, .tab-et-prod td select { font-size:11px; color:#000; height: 20px; border:0px;}
+.form-control { padding:1px 4px !important; }
+th.tit-colspan1 { background-color:#DFF0D8; }
+th.tit-colspan2 { background-color:#D2DDCE; } 
+th.tit-colspan3 { background-color:#CED6CB; }
+
+tr.linha td { font-size:11px; }
+*/
+
+/* FORMATAÇÃO DOS LINKS EDITAR E Excluir */
+.btn-editar, .btn-excluir { border:none; width:16px; height:18px; float: left;  
+							background-color: transparent;
+							}
+
+.btn-excluir {margin-left:2px;}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, 
+.table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td 
+{
+    padding: 0 10px !important;  
+}
+
+.table > tbody > tr > td { font-size:12px; border: 1px solid #9B9B9B; text-align: center; vertical-align: middle !important;}
+
+.table > thead > tr > th { background-color: #DFF0D8; border-bottom-width:0px !important; text-align: center; vertical-align: middle !important;  }
+
+.pag2 { float:left; margin-left:180px !important; margin-top:-30px !important;}
+
+.box-et-prod { width:100%; overflow-x:auto; overflow-y:hidden; padding-bottom:10px; margin-top:10px; /* #CBD6C7 border:1px solid black;*/}
+
+.linhaSelecionada{ background-color:#DFF0D8 !important; }
+
+.tab-et-lote>tbody>tr:nth-child(odd) { background-color:#F2F2F2; }
+
+/*.tab-et-lote>tbody>tr:nth-child(even) { background-color:#F2F2F2; }*/
+
+
+/*
+table.tab-et-prod input[type="text"] { height:23px; position:relative; top:1px; left:0px; padding:0 1px; border:0; 
+					 font-size:11px !important; color:#000; text-align:center; background: transparent !important;
+					 }
+*/
+
+/*
+.tab-et-prod { margin-top:10px; border:1px solid #BFBFBF !important; }
+
+.tab-et-prod th, .tab-et-prod td { border:1px solid #BFBFBF !important;} 
+
+.tab-et-prod th, .titulo-acoes { font-size:10px !important; background-color:#DFF0D8; text-align:center; vertical-align:middle !important; color:#000; }
+
+/*.tab-et-prod td { height:25px;	padding:0px !important; }*/
+
+
+

@@ -1,0 +1,35 @@
+﻿/* view cadastrar controle da produção */
+
+.panel-body { margin:auto; }
+
+.box-info-lote { width:100%; overflow-x:auto; overflow-y:hidden; padding-bottom:10px; border:1px solid black; }
+
+.box-cadastrar-cont { width:800px !important; margin:0 auto; } 
+
+.campo {height: 20px !important; font-size: 12px; border: 1px solid #ccc; }
+
+label { background-color: #eeeeee; border: 1px solid #cccccc; }
+
+.col-sm-9 { width: 70% !important; }
+
+.control-label { margin-left:10px; }
+
+.page-header { margin: 20 0 20px !important; padding-bottom: 2px; background-color: #EEEEEE; padding-left: 5px;}
+
+.form-control { width:200px; float:left; }
+
+.msg-erro { color: #B94A48; font-size:11px; float:left; margin-left:15px; margin-top:2px; /* border:1px solid black;*/ }
+
+.obs_calc { font-size:11px; float:left; margin-left:5px; margin-top:3px; /* border:1px solid black;*/ }
+
+.campo_calc {background-color: #FCF7C7 !important;}
+
+
+
+
+
+
+
+
+
+

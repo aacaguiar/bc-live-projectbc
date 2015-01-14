@@ -1,0 +1,105 @@
+﻿@CHARSET "UTF-8";
+
+.box-gerencia-lote { width:800px !important; margin:0 auto; }
+
+/*
+.titulo-ger-lote { font-size:18px; width:320px; text-align:center; margin:20px auto; margin-bottom:10px; 
+				   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; color:#333; }
+*/
+
+.selecao select { width:220px; }
+
+.panel-body { padding-left:80px !important; }
+
+/*
+.btn-cadastro-cli { float:right; border:1px solid black; }
+*/
+
+.fator-mult { border:1px solid #BFBFBF !important; margin-bottom:20px !important; }
+
+.tab-ger-lote { margin-top:10px; border:1px solid #BFBFBF !important; }
+
+.tab-ger-lote th, .fator-mult th, .fator-mult td, .tab-ger-lote td { border:1px solid #BFBFBF !important;} 
+
+.fator-mult th { padding:3px !important }
+
+.tab-ger-lote th, .titulo-acoes, .fator-mult th { font-size:10px !important; background-color:#DFF0D8; text-align:center; vertical-align:middle !important; color:#000; }
+
+th.col-destaque { background:#FCF7C7; }
+
+.col-size { width:72px !important; }
+
+table.fator-mult td { font-size:12px !important; }
+
+.tab-ger-lote td { height:25px;	padding:0px !important; }
+
+input[type="text"] { height:23px; position:relative; top:1px; left:0px; padding:0 1px; border:0; font-size:12px !important; color:#000; width:60px; text-align:center;}
+
+select.select-fase, select.select-concluido, select.select-prazo
+{ /*border-radius:0 !important;*/ height:23px !important; padding:1px 6px !important; color:#000; border:0; font-size:12px; margin-top:1px;}
+
+select.select-fase { width:130px; }
+
+select.select-prazo, select.select-concluido { width:95px; }
+
+/*
+.expl_util { width:50px;}
+.prep_meio { width:70px; }
+*/
+
+select.select-repicadora { width:110px; }
+/* select.select-frasco { width:115px; } */
+
+.recuo { text-align:center !important; }
+
+
+/* FORMATAÇÃO DAS MENSAGENS DE ERRO */
+.box-erro { background-color:#F2DCDC; }
+.msg-erro-cadastro { color: #B94A48; font-size:11px; text-align:left; padding-left:10px; margin-top:1px; margin-bottom:2px; }
+
+
+/* FORMATAÇÃO DOS LINKS EDITAR E ATUALIZAR */
+.comandos, .titulo-acoes { width:60px; } 
+/*.comandos { border:1px solid #BFBFBF; border-top-width:0; }*/
+/*.titulo-acoes { margin-top:20px; height:60px; border:1px solid #BFBFBF;  font-weight: bold; line-height: 55px; }*/
+.btn-editar, .btn-atualiza { /*border:1px solid black;*/ cursor:pointer; position:relative; top:2px; left:10px; }
+
+
+/* FORMATAÇÃO DO LINK CADASTRAR */
+.btn-lote {height:23px; width:100%; border-radius:0 !important; border:0 !important;}
+.btn-lote:hover { background-color:transparent !important;}
+
+
+/* FORMATAÇÃO DAS CAIXAS DE MENSAGENS - CONTAMINACAÇÃO E OBSERVAÇÃO */
+#descontaminacao, #observacao { display: none; }
+.lab-desc { }
+
+.btn-salvar { margin-top:40px; font-size:11px !important; }
+.btn-observ { margin-top:38px; font-size:11px !important; }
+
+.texto-pesquisa { color:#000; font-size:12px; }
+
+/*.box-check { border:1px solid black; margin-top:75px !important; margin-left:-673px; }*/
+.form_lote { /*border:1px solid black;*/ }
+
+#panel
+{
+padding:10px;
+display:none;
+background-color:transparent !important;
+cursor:auto !important;
+}
+
+#panel,#box_fator_mult
+{
+font-size:12px;
+text-indent:5px;
+font-weight:bold;
+background-color:#DFF0D8;
+border:solid 1px #c3c3c3;
+cursor:default;
+}
+
+.box-fase-lote { width:100%; overflow-x:auto; overflow-y:hidden; padding-bottom:10px; /*border:1px solid black;*/}
+
+

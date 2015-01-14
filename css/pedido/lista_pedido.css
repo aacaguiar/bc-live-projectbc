@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+.box-pesquisa { /*border:1px solid black;*/ }
+
+.texto-pesquisa { color:#000; font-size:11px; }
+
+.btn-editar, .btn-excluir { border:none; width:16px; height:18px; background-color: transparent !important; }
+
+/*.pag2 {	margin-top:-35px !important; margin-left:140px !important; }*/
+
+.img-pesquisar { width:20px; height:18px; }
+
+.campo_pesq { text-transform:small;	}
+
+.input-group-addon { padding:1px 12px !important; }
+
+.selec-pesq { padding:0px !important; }
+
+.input-group { border:0px solid red; width:350px;}
+
+.msg-erro-pesq { color: #B94A48; font-size:12px; text-align:right; padding-right:42px;/*width:425px; margin-top:1px; margin-bottom:5px; margin-left:122px;*/
+    			/*border:1px solid red;*/ }
+    			
+.pag2 { float:left; margin-left:180px !important; margin-top:-30px !important;}
+
+.panel { margin-top:-10px;}
+    			
+
+
+
+

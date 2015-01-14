@@ -1,0 +1,15 @@
+﻿@CHARSET "UTF-8";
+/*
+:required { box-shadow: none; }
+*/
+
+.box-cadastro-cli {	width:800px !important;	margin:0 auto; }
+
+.msg-erro-cadastro-cli {color: #B94A48; font-size:12px; text-align:left; padding-left:10px; width:500px; margin-top:1px; margin-bottom:5px; margin-left:0px; }
+
+.select-cadastro-cli select { width:324px; }
+
+.panel-body { padding-left:120px !important; }
+
+.btn-cadastro-cli {	float:right; }
+

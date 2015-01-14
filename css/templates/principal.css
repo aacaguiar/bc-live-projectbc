@@ -1,0 +1,49 @@
+﻿@CHARSET "UTF-8";
+
+html, body {height: 100%; }
+
+.box-img-topo { background:#86A043 !important; margin-top:-20px; height:50px !important; /*border-bottom-width:2px !important; border-bottom-color:#444004 !important;*/}
+
+.img-topo { height:59px; width:98%; /*border:1px solid black;*/}
+
+.conteudo { border:1px solid #E2E2E2; min-height: 81% !important; width:98%; margin-bottom:10px; background-color: #F8F8F8; }
+
+.box-rodape { border:3px solid #86A043; border-right-width:0; border-left-width:0; border-bottom-width:0; }
+
+.texto-rodape { text-align: center; color: #333333; padding-top:10px; line-height: 12px; background-color: #F5F5F5; height: 60px; }
+
+.username { float:right; margin-top:15px; margin-right:20px; }
+
+.img-logo-principal { width:40px; height:42px; float:left; margin-right:15px; /*border:1px solid black;*/}
+
+.titulo { height:50px; margin-top:-9px; margin-right:20px; color:#ECEFE8; /*border:1px solid black;*/ }
+
+/*
+.corpo { width:90%;	height:500px; margin:50 auto; border:1px solid red; }
+
+.box { width:85%; height:480px;	margin:2px auto; padding:1px; border:1px solid blue;}
+*/
+
+.img-pag-inicial { width:80%; height:60%; position:relative; left:120px; top:50px; /*border:1px solid yellow;*/}
+
+.icone-menu { width:15px; height:15px; margin-right:4px; margin-top:-5px; }
+
+/*
+fieldset.scheduler-border {
+    border: 3px double #E0E0E0 !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    /*margin: 0 2px 1.5em 2px !important; *
+	width:99%;
+}
+
+legend.scheduler-border {
+    text-align: left !important;
+    /*border:1px solid black;*
+    border-bottom-width:0 !important;
+    position:relative;
+    width:auto;
+    top:9px;
+    padding-left:4px;
+    padding-right:4px; 
+}
+*/

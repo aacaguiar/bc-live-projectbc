@@ -1,0 +1,150 @@
+﻿@CHARSET "UTF-8";
+html
+{
+	/*border:1px solid blue;*/
+	margin:2px auto;
+	padding:0px;
+}
+
+body
+{
+	/*border:1px solid white;*/
+	margin:0px;
+	padding:0px;
+	/*margin:1px auto;*/
+	
+	 background-color: #2F2727; 
+	 background-position: center center; 
+	 background-repeat: no-repeat; 
+	 /* Safari 4-5, Chrome 1-9 */ 
+	 background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727)); 
+	 /* Safari 5.1+, Chrome 10+ */ 
+	 background: -webkit-radial-gradient(circle, #9CCE17, #2F2727); 
+	 /* Firefox 3.6+ */ 
+	 background: -moz-radial-gradient(circle, #9CCE17, #2F2727); 
+	 /* IE 10 */ 
+	 background: -ms-radial-gradient(circle, #9CCE17, #2F2727); 
+	 /* Opera couldn't do radial gradients, then at some point they started supporting the -webkit- syntax, how it kinda does but it's kinda broken (doesn't do sizing) */
+	
+}
+
+#container
+{
+	position:relative;
+	top:-20px;
+	left:150px;
+	width:1290px;
+	/*border:1px solid red;*/
+	height:760px;	
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) 
+{
+	#container 
+	{ 
+		margin-top:10px; 
+	}
+}
+
+.box-login
+{
+	width: 380px;
+	height: 400px;
+	margin:100px auto;
+	border-radius: 10px;
+	background-color:#ffffff;
+	/*border:1px solid red;*/
+}
+
+
+.table-login
+{
+	margin:30px auto;
+}
+
+.rotulo
+{
+	color:#057D36;
+	font-size:20px;
+	font-family:"helvetica";
+}
+
+.campo
+{
+	width:280px;
+	height:35px;
+	border:1px solid #BFBFBF;
+	font-size:16px;
+	color:#000;
+	margin:5px;
+	text-indent:5px;
+}
+
+.imagem-logo
+{
+	margin-left:140px;
+	margin-top:20px;
+}
+
+.titulo
+{
+	 width:900px;
+	 /*border:1px solid white;*/
+	 height:70px;
+	 text-align:center;
+	 font-size:50px;
+	 margin:5px auto;
+	 color:#fff;
+	 text-align:center;
+	 font-family:helvetica;
+}
+
+.footer
+{
+	width:868px;
+	height:25px;
+	color:#fff;
+	font-size:20px;
+	text-align:center;
+	/*border:1px solid white;*/
+	margin-top:160px;
+	margin-left:250px;
+	
+}
+/*
+Chrome e safari 
+@media screen and (-webkit-min-device-pixel-ratio:0) 
+{
+	 .footer {  
+	 
+	 	}
+}
+*/
+
+.btn-submit
+{
+	width:70px;
+	height:35px;
+	border:1px solid #fff;
+	color:#fff;
+	font-size:17px;
+	cursor:pointer;
+	background-color: #6DA021;
+	margin-top:10px;
+}
+
+.error
+{
+	width:280px;
+	color:#ff0000;
+	font-size:12px;
+	margin-left:10px;
+}
+
+
+
+
+
+
+
+

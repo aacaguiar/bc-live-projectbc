@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+.box-pesquisa-user {  }
+
+.btn-editar-pesquisa-user {	font-size:12px;	text-decoration:none; color:#35585E; background: none; border: none; cursor: pointer; }
+
+.btn-editar-pesquisa-user:hover { color:#0E7AF4; }
+
+.texto-pesquisa-user { color:#000; font-size:11px; }
+
+tr:nth-child(odd) {	background-color: #F2F2F2 !important; }
+
+.btn-editar, .btn-excluir { border:none; width:16px; height:18px;  background-color: transparent; }
+
+.pag2 { float:left; margin-left:180px !important; margin-top:-30px !important;}

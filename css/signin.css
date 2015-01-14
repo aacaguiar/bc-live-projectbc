@@ -1,0 +1,135 @@
+@CHARSET "UTF-8";
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /*background-color: #eeeeee !important;*/
+}
+
+.form-signin {
+  max-width: 340px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #F8F8F8 !important;
+  border:1px solid #CECECE;
+  border-radius:4px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 8px;
+  font-size: 16px;
+  width:100%;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-login {
+	margin-top:10px;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    width: 25%;
+    line-height: 0.4 !important;
+    background-color: #85BC96 !important;
+    border-color: #70A57E !important;  
+}
+
+.btn-login:hover{
+	 background-color: #70A57E !important;
+}
+
+.label-login{
+	color:#598766;
+	font-size:15px;
+}
+
+.cabecalho-login
+{
+	margin-top:5px !important;
+	font-size:25px;
+	color:#598766;
+	text-align:center;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.msg-erro-login
+{
+    color: #B94A48;
+    font-size:11px;
+    width:290px;
+    margin-top:-6px;
+    margin-left:0px;
+}
+
+.box-user{
+	/*border:1px solid black;*/
+}
+
+.box-passw{
+	margin-top:8px;
+	/*border:1px solid black;*/
+}
+
+.header{
+  padding-left: 0px;
+  padding-right: 0px;
+  color:#B2B2B2;
+  width:342px;
+  /*border:1px solid black;*/
+  margin:0 auto;
+  
+}
+
+.header h4 { font-size:16px; color:#598766}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  border:1px solid #C4C4C4;
+  background-color: #F8F8F8;
+  padding-top:0;
+}
+
+.text-footer
+{
+	margin-top:-10px;
+	font-size:12px;
+	text-align:center;
+}
+
+.img-logo
+{
+	width:80px;
+	height:90px;
+}
+
+
